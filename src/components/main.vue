@@ -11,13 +11,13 @@
     "
   >
     <div class="w-full items-center justify-center">
-      <img src="../assets/logo.png" class="w-1/2 mx-auto" alt="" />
+      <img src="../assets/logo.png" class="md:w-1/2 mx-auto" alt="" />
     </div>
     <div class="flex flex-col w-full items-center justify-center space-y-4">
-      <span class="text-5xl font-semibold">Selamat Datang</span>
+      <span class="text-4xl font-semibold">Selamat Datang</span>
       <div
         class="
-          md:w-1/2
+          lg:w-1/2
           w-full
           text-justify
           md:text-left
