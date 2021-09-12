@@ -6,7 +6,7 @@
       bg-blue-100
       w-full
       justify-center
-      space-y-6
+      space-y-12
       items-center
       px-5
       py-10
@@ -19,9 +19,10 @@
     <div
       class="
         grid
-        md:grid-cols-4
-        grid-cols-2 grid-flow-row grid-rows-2
-        gap-10
+        md:grid-cols-2
+        lg:grid-cols-4
+        grid-cols-1 grid-flow-row grid-rows-2
+        gap-16
         px-10
         container
         w-full
@@ -60,7 +61,7 @@
         <div>
           Materi:
           <div class="mt-3 space-y-2 flex flex-col">
-            <ul class="list-disc px-5">
+            <ul class="list-disc px-10">
               <li
                 class="text-left mx-auto font-semibold"
                 v-for="(materi, materiIndex) in kursus.materi"
